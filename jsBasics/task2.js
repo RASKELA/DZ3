@@ -1,12 +1,10 @@
-// EXERCISE 3:
+let name1 = "John";
+let name2 = "Jane";
 
-let name1 = "Анна";
-let name2 = "Олег";
+// Канкатенация строк
+let greetingConcat = "Hello, " + name1 + " and " + name2 + "!";
+console.log(greetingConcat);
 
-// Конкатенація
-let greetingConcat = "Привіт, " + name1 + " та " + name2 + "!";
-console.log("Конкатенація:", greetingConcat);
-
-// Шаблонний рядок
-let greetingTemplate = `Привіт, ${name1} та ${name2}!`;
-console.log("Шаблонний рядок:", greetingTemplate);
+// Шаблонная строка
+let greetingTemplate = `Hello, ${name1} and ${name2}!`;
+console.log(greetingTemplate);

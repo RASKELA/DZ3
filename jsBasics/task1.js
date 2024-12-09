@@ -1,21 +1,11 @@
-// EXERCISE 1:
+let myString = "Hello, World!";
+let myNumber = 42;
+let myBoolean = true;
+let myNull = null;
+let myUndefined;
 
-// Рядок
-let stringVar = "Привіт, світ!";
-console.log("Рядок:", stringVar);
-
-// Число
-let numberVar = 42;
-console.log("Число:", numberVar);
-
-// Буль
-let booleanVar = true;
-console.log("Буль:", booleanVar);
-
-// Null
-let nullVar = null;
-console.log("Null:", nullVar);
-
-// Undefined
-let undefinedVar;
-console.log("Undefined:", undefinedVar);
+console.log(myString);
+console.log(myNumber);
+console.log(myBoolean);
+console.log(myNull);
+console.log(myUndefined);

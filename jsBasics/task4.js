@@ -1,18 +1,16 @@
-// EXERCISE 4:
+// Задание 4.1
+let radiusCircle = 5;
+let areaCircle = Math.PI * Math.pow(radiusCircle, 2);
+console.log("Area of circle:", areaCircle.toFixed(2));
 
-// EXERCISE 4.1: Площа кола
-let radius = 7;
-let circleArea = Math.PI * Math.pow(radius, 2);
-console.log("Площа кола (округлено):", circleArea.toFixed(2));
+// Задание 4.2
+let lengthRectangle = 10;
+let widthRectangle = 4;
+let areaRectangle = lengthRectangle * widthRectangle;
+console.log("Area of rectangle:", areaRectangle.toFixed(2));
 
-// EXERCISE 4.2: Площа прямокутника
-let length = 10;
-let width = 5;
-let rectangleArea = length * width;
-console.log("Площа прямокутника:", rectangleArea.toFixed(2));
-
-// EXERCISE 4.3: Об'єм циліндра
-radius = 7;
-let height = 15;
-let cylinderVolume = Math.PI * Math.pow(radius, 2) * height;
-console.log("Об'єм циліндра (округлено):", cylinderVolume.toFixed(2));
+// Задание 4.3
+let radiusCylinder = 3;
+let heightCylinder = 7;
+let volumeCylinder = Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder;
+console.log("Volume of cylinder:", volumeCylinder.toFixed(2));
